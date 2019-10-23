@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class MessagingConfiguration {
 	
 	//private static final String RABBITMQ_ADDRESS = "amqp://egiewgbh:jBUJJcnZ3RyujtW4izHce5Ixv1jng5wj@owl.rmq.cloudamqp.com/egiewgbh";
-	private static final String RABBITMQ_ADDRESS = "amqp://yobiioxi:Q2dr_LEkkHhamyyTpyNQAayzjz-2p3hX@toad.rmq.cloudamqp.com/yobiioxi";
+	private static final String RABBITMQ_ADDRESS = "amqp://yobiioxi:I4RQ-M85kx_WC22lA8T1VMpHTBs41HSC@toad.rmq.cloudamqp.com/yobiioxi";
 	@Bean
 	public CachingConnectionFactory rabbitConnectionFactory(RabbitProperties config) throws Exception {
 
